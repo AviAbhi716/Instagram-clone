@@ -1,0 +1,166 @@
+.center{
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.stories{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+.story{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.story_image{
+  position: relative;
+}
+.circle{
+  width: 70px;
+}
+.img{
+  position: absolute;
+  right: 5px;
+  bottom: 9px;
+  border-radius: 100px;
+  width: 60px;
+  object-fit: cover;
+}
+.text{
+  font-size: 12px;
+}
+.Post_section{
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.Post{
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0, 0, 0, 0.3);
+  border-width: 1px;
+}
+.profile_section,.share_section,.add_section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.left,.tap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Profile_img{
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.userid{
+  font-weight: bold;
+  margin-right: 2px;
+  cursor: pointer;
+}
+.verified{
+  width: 18px;
+  object-fit: cover;
+  margin-right: 3px;
+}
+.txt{
+  color: grey;
+  cursor: pointer;
+}
+.more{
+  width: 16px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.post_image{
+  height: 585px;
+  width: 468.4px;
+  border-radius: 4px;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-width: 1px;
+}
+.like,.comment,.share,.save{
+  width: 24px;
+  padding: 8px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.hashtag{
+  color: #385898;
+  cursor: pointer;
+}
+.add_comment{
+  border: none;
+  outline: none;
+}
+.add_comment::placeholder{
+  font-size: 15px;
+}
+.emoji{
+  width: 16px;
+  cursor: pointer;
+}
+.hovering{
+  position: relative;
+}
+.hovering:hover .hoverbox{
+  opacity: 1;
+}
+.hovering:hover .hoverboxs{
+  opacity: 1;
+}
+.hoverbox{
+  position: absolute;
+  padding: 6px;
+  border-width: 1px;
+  font-size: 12px;
+  border-bottom-color:rgba(0, 0, 0, 0.4) ;
+  border-right-color:rgba(0, 0, 0, 0.3) ;
+  border-top-color: black;
+  border-left-color: black;
+  border-style: solid;
+  top: 25px;
+  left: 15px;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  transition: opacity 1s;
+  z-index: 100;
+  background-color: white;
+}
+.hoverboxs{
+  position: absolute;
+  padding: 6px;
+  border-width: 1px;
+  font-size: 12px;
+  border-bottom-color:rgba(0, 0, 0, 0.4) ;
+  border-right-color:rgba(0, 0, 0, 0.3) ;
+  border-top-color: black;
+  border-left-color: black;
+  border-style: solid;
+  top: 40px;
+  left: 15px;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  transition: opacity 1s;
+  z-index: 100;
+  background-color: white;
+}

@@ -1,0 +1,92 @@
+.end{
+  padding-left: 64px;
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  font-size: 15px;
+}
+.Profile_account{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.image_id{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.account_image{
+  width: 44px;
+  height: 44px;
+  border-radius: 30px;
+  object-fit: cover;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.account_details{
+  display: flex;
+  flex-direction: column;
+}
+.account_id{
+  font-weight: bold;
+  cursor: pointer;
+}
+.account_name{
+  color: grey;
+}
+.follow{
+  font-weight: bold;
+  color: rgb(0, 149, 246);
+  cursor: pointer;
+}
+.follow:hover{
+  color: rgb(24, 119, 242);
+}
+.Suggestion{
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.top div:hover{
+  color: grey;
+}
+.heading{
+  color: grey;
+  font-weight: bold;
+}
+.last_section{
+  line-height: 20px;
+  margin-top: 8px;
+}
+.last_row{
+  display: flex;
+  flex-direction: row;
+}
+.last{
+  color: rgba(128, 128, 128,0.5);
+  font-size: 12px;
+  margin-right: 3px;
+  cursor: pointer;
+  transition: text-decoration 0.15s;
+}
+.last:hover{
+  text-decoration: underline;
+}
+.last_rows{
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+.lasts{
+  color: rgba(128, 128, 128,0.5);
+  font-size: 12px;
+}

@@ -1,0 +1,7 @@
+.main{
+  margin-left: 375px;
+  margin-right: 375px;
+  display: grid;
+  grid-template-columns: 630px 383px;
+  height: 100%;
+}
